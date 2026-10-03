@@ -1,0 +1,644 @@
+{
+  "operator_exercise": "Add October CSV, synchronous query refresh, compare independent oracle, repeat refresh",
+  "checks": [
+    {
+      "check": "portable_first_run/DataRoot_placeholder",
+      "actual": "\"SET_YOUR_FIXTURES_FOLDER\"",
+      "expected": "\"SET_YOUR_FIXTURES_FOLDER\"",
+      "passed": true
+    },
+    {
+      "check": "added_october/input_rows",
+      "actual": 1193.0,
+      "expected": 1193,
+      "passed": true
+    },
+    {
+      "check": "added_october/accepted_rows",
+      "actual": 1182.0,
+      "expected": 1182,
+      "passed": true
+    },
+    {
+      "check": "added_october/exception_rows",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "added_october/unvalued_rows",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "check": "added_october/raw_valued_revenue_cents",
+      "actual": 9030800.0,
+      "expected": 9030800,
+      "passed": true
+    },
+    {
+      "check": "added_october/excluded_valued_revenue_cents",
+      "actual": 28000.0,
+      "expected": 28000,
+      "passed": true
+    },
+    {
+      "check": "added_october/revenue_cents",
+      "actual": 9002800.0,
+      "expected": 9002800,
+      "passed": true
+    },
+    {
+      "check": "added_october/cost_cents",
+      "actual": 3486770.0,
+      "expected": 3486770,
+      "passed": true
+    },
+    {
+      "check": "added_october/row_difference",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "added_october/revenue_difference_cents",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "added_october/month_count",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-04/orders",
+      "actual": 150.0,
+      "expected": 150,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-04/revenue_cents",
+      "actual": 1062800.0,
+      "expected": 1062800,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-04/cost_cents",
+      "actual": 416220.0,
+      "expected": 416220,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-05/orders",
+      "actual": 168.0,
+      "expected": 168,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-05/revenue_cents",
+      "actual": 1189800.0,
+      "expected": 1189800,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-05/cost_cents",
+      "actual": 456560.0,
+      "expected": 456560,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-06/orders",
+      "actual": 186.0,
+      "expected": 186,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-06/revenue_cents",
+      "actual": 1405200.0,
+      "expected": 1405200,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-06/cost_cents",
+      "actual": 545600.0,
+      "expected": 545600,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-07/orders",
+      "actual": 204.0,
+      "expected": 204,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-07/revenue_cents",
+      "actual": 1677800.0,
+      "expected": 1677800,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-07/cost_cents",
+      "actual": 649470.0,
+      "expected": 649470,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-08/orders",
+      "actual": 222.0,
+      "expected": 222,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-08/revenue_cents",
+      "actual": 1762200.0,
+      "expected": 1762200,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-08/cost_cents",
+      "actual": 681490.0,
+      "expected": 681490,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-09/orders",
+      "actual": 240.0,
+      "expected": 240,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-09/revenue_cents",
+      "actual": 1828400.0,
+      "expected": 1828400,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-09/cost_cents",
+      "actual": 708060.0,
+      "expected": 708060,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-10/orders",
+      "actual": 12.0,
+      "expected": 12,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-10/revenue_cents",
+      "actual": 76600.0,
+      "expected": 76600,
+      "passed": true
+    },
+    {
+      "check": "added_october/2026-10/cost_cents",
+      "actual": 29370.0,
+      "expected": 29370,
+      "passed": true
+    },
+    {
+      "check": "added_october/visible_exceptions",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "added_october/exception_reasons",
+      "actual": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "expected": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/input_rows",
+      "actual": 1193.0,
+      "expected": 1193,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/accepted_rows",
+      "actual": 1182.0,
+      "expected": 1182,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/exception_rows",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/unvalued_rows",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/raw_valued_revenue_cents",
+      "actual": 9030800.0,
+      "expected": 9030800,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/excluded_valued_revenue_cents",
+      "actual": 28000.0,
+      "expected": 28000,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/revenue_cents",
+      "actual": 9002800.0,
+      "expected": 9002800,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/cost_cents",
+      "actual": 3486770.0,
+      "expected": 3486770,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/row_difference",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/revenue_difference_cents",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/month_count",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-04/orders",
+      "actual": 150.0,
+      "expected": 150,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-04/revenue_cents",
+      "actual": 1062800.0,
+      "expected": 1062800,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-04/cost_cents",
+      "actual": 416220.0,
+      "expected": 416220,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-05/orders",
+      "actual": 168.0,
+      "expected": 168,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-05/revenue_cents",
+      "actual": 1189800.0,
+      "expected": 1189800,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-05/cost_cents",
+      "actual": 456560.0,
+      "expected": 456560,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-06/orders",
+      "actual": 186.0,
+      "expected": 186,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-06/revenue_cents",
+      "actual": 1405200.0,
+      "expected": 1405200,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-06/cost_cents",
+      "actual": 545600.0,
+      "expected": 545600,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-07/orders",
+      "actual": 204.0,
+      "expected": 204,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-07/revenue_cents",
+      "actual": 1677800.0,
+      "expected": 1677800,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-07/cost_cents",
+      "actual": 649470.0,
+      "expected": 649470,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-08/orders",
+      "actual": 222.0,
+      "expected": 222,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-08/revenue_cents",
+      "actual": 1762200.0,
+      "expected": 1762200,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-08/cost_cents",
+      "actual": 681490.0,
+      "expected": 681490,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-09/orders",
+      "actual": 240.0,
+      "expected": 240,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-09/revenue_cents",
+      "actual": 1828400.0,
+      "expected": 1828400,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-09/cost_cents",
+      "actual": 708060.0,
+      "expected": 708060,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-10/orders",
+      "actual": 12.0,
+      "expected": 12,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-10/revenue_cents",
+      "actual": 76600.0,
+      "expected": 76600,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/2026-10/cost_cents",
+      "actual": 29370.0,
+      "expected": 29370,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/visible_exceptions",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "repeat_refresh/exception_reasons",
+      "actual": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "expected": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "passed": true
+    },
+    {
+      "check": "empty_master_sku/refresh_rejected",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "whitespace_master_sku/refresh_rejected",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "schema_drift/refresh_rejected",
+      "actual": true,
+      "expected": true,
+      "passed": true
+    },
+    {
+      "check": "restored_master/input_rows",
+      "actual": 1193.0,
+      "expected": 1193,
+      "passed": true
+    },
+    {
+      "check": "restored_master/accepted_rows",
+      "actual": 1182.0,
+      "expected": 1182,
+      "passed": true
+    },
+    {
+      "check": "restored_master/exception_rows",
+      "actual": 11.0,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "restored_master/unvalued_rows",
+      "actual": 3.0,
+      "expected": 3,
+      "passed": true
+    },
+    {
+      "check": "restored_master/raw_valued_revenue_cents",
+      "actual": 9030800.0,
+      "expected": 9030800,
+      "passed": true
+    },
+    {
+      "check": "restored_master/excluded_valued_revenue_cents",
+      "actual": 28000.0,
+      "expected": 28000,
+      "passed": true
+    },
+    {
+      "check": "restored_master/revenue_cents",
+      "actual": 9002800.0,
+      "expected": 9002800,
+      "passed": true
+    },
+    {
+      "check": "restored_master/cost_cents",
+      "actual": 3486770.0,
+      "expected": 3486770,
+      "passed": true
+    },
+    {
+      "check": "restored_master/row_difference",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "restored_master/revenue_difference_cents",
+      "actual": 0.0,
+      "expected": 0,
+      "passed": true
+    },
+    {
+      "check": "restored_master/month_count",
+      "actual": 7,
+      "expected": 7,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-04/orders",
+      "actual": 150.0,
+      "expected": 150,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-04/revenue_cents",
+      "actual": 1062800.0,
+      "expected": 1062800,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-04/cost_cents",
+      "actual": 416220.0,
+      "expected": 416220,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-05/orders",
+      "actual": 168.0,
+      "expected": 168,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-05/revenue_cents",
+      "actual": 1189800.0,
+      "expected": 1189800,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-05/cost_cents",
+      "actual": 456560.0,
+      "expected": 456560,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-06/orders",
+      "actual": 186.0,
+      "expected": 186,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-06/revenue_cents",
+      "actual": 1405200.0,
+      "expected": 1405200,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-06/cost_cents",
+      "actual": 545600.0,
+      "expected": 545600,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-07/orders",
+      "actual": 204.0,
+      "expected": 204,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-07/revenue_cents",
+      "actual": 1677800.0,
+      "expected": 1677800,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-07/cost_cents",
+      "actual": 649470.0,
+      "expected": 649470,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-08/orders",
+      "actual": 222.0,
+      "expected": 222,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-08/revenue_cents",
+      "actual": 1762200.0,
+      "expected": 1762200,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-08/cost_cents",
+      "actual": 681490.0,
+      "expected": 681490,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-09/orders",
+      "actual": 240.0,
+      "expected": 240,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-09/revenue_cents",
+      "actual": 1828400.0,
+      "expected": 1828400,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-09/cost_cents",
+      "actual": 708060.0,
+      "expected": 708060,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-10/orders",
+      "actual": 12.0,
+      "expected": 12,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-10/revenue_cents",
+      "actual": 76600.0,
+      "expected": 76600,
+      "passed": true
+    },
+    {
+      "check": "restored_master/2026-10/cost_cents",
+      "actual": 29370.0,
+      "expected": 29370,
+      "passed": true
+    },
+    {
+      "check": "restored_master/visible_exceptions",
+      "actual": 11,
+      "expected": 11,
+      "passed": true
+    },
+    {
+      "check": "restored_master/exception_reasons",
+      "actual": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "expected": "   |missing_order_id,|missing_order_id,BAD-CHANNEL|invalid_channel,BAD-DATE|invalid_date,BAD-PRICE|invalid_unit_price_cents,BAD-QTY|invalid_quantity,DECIMAL-QTY|invalid_quantity,DUP-OCT|duplicate_order_id,DUP-OCT|duplicate_order_id,NAME-MISMATCH|product_mismatch,UNKNOWN-SKU|unmatched_sku",
+      "passed": true
+    }
+  ],
+  "version": "1.1.0",
+  "native_power_query": true,
+  "excel_version": "16.0"
+}

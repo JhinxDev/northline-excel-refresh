@@ -1,0 +1,70 @@
+{
+  "queries_executed_by_previous_receipt": true,
+  "read_only_reopen": true,
+  "checks": [
+    {
+      "passed": true,
+      "check": "portable_DataRoot"
+    },
+    {
+      "passed": true,
+      "check": "embedded_source/AllRows"
+    },
+    {
+      "passed": true,
+      "check": "embedded_source/Accepted"
+    },
+    {
+      "passed": true,
+      "check": "embedded_source/Exceptions"
+    },
+    {
+      "passed": true,
+      "check": "embedded_source/Monthly"
+    },
+    {
+      "passed": true,
+      "check": "embedded_source/Reconciliation"
+    },
+    {
+      "check": "saved_values/input_rows",
+      "passed": true,
+      "actual": 1193.0
+    },
+    {
+      "check": "saved_values/accepted_rows",
+      "passed": true,
+      "actual": 1182.0
+    },
+    {
+      "check": "saved_values/exception_rows",
+      "passed": true,
+      "actual": 11.0
+    },
+    {
+      "check": "saved_values/unvalued_rows",
+      "passed": true,
+      "actual": 3.0
+    },
+    {
+      "check": "saved_values/raw_valued_revenue_cents",
+      "passed": true,
+      "actual": 9030800.0
+    },
+    {
+      "check": "saved_values/excluded_valued_revenue_cents",
+      "passed": true,
+      "actual": 28000.0
+    },
+    {
+      "check": "saved_values/revenue_cents",
+      "passed": true,
+      "actual": 9002800.0
+    },
+    {
+      "check": "saved_values/cost_cents",
+      "passed": true,
+      "actual": 3486770.0
+    }
+  ]
+}

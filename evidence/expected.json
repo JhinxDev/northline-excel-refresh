@@ -1,0 +1,138 @@
+{
+  "baseline": {
+    "input_rows": 1170,
+    "accepted_rows": 1170,
+    "exception_rows": 0,
+    "unvalued_rows": 0,
+    "raw_valued_revenue_cents": 8926200,
+    "excluded_valued_revenue_cents": 0,
+    "revenue_cents": 8926200,
+    "cost_cents": 3457400,
+    "months": {
+      "2026-04": {
+        "orders": 150,
+        "revenue_cents": 1062800,
+        "cost_cents": 416220
+      },
+      "2026-05": {
+        "orders": 168,
+        "revenue_cents": 1189800,
+        "cost_cents": 456560
+      },
+      "2026-06": {
+        "orders": 186,
+        "revenue_cents": 1405200,
+        "cost_cents": 545600
+      },
+      "2026-07": {
+        "orders": 204,
+        "revenue_cents": 1677800,
+        "cost_cents": 649470
+      },
+      "2026-08": {
+        "orders": 222,
+        "revenue_cents": 1762200,
+        "cost_cents": 681490
+      },
+      "2026-09": {
+        "orders": 240,
+        "revenue_cents": 1828400,
+        "cost_cents": 708060
+      }
+    },
+    "exceptions": []
+  },
+  "october": {
+    "input_rows": 1193,
+    "accepted_rows": 1182,
+    "exception_rows": 11,
+    "unvalued_rows": 3,
+    "raw_valued_revenue_cents": 9030800,
+    "excluded_valued_revenue_cents": 28000,
+    "revenue_cents": 9002800,
+    "cost_cents": 3486770,
+    "months": {
+      "2026-04": {
+        "orders": 150,
+        "revenue_cents": 1062800,
+        "cost_cents": 416220
+      },
+      "2026-05": {
+        "orders": 168,
+        "revenue_cents": 1189800,
+        "cost_cents": 456560
+      },
+      "2026-06": {
+        "orders": 186,
+        "revenue_cents": 1405200,
+        "cost_cents": 545600
+      },
+      "2026-07": {
+        "orders": 204,
+        "revenue_cents": 1677800,
+        "cost_cents": 649470
+      },
+      "2026-08": {
+        "orders": 222,
+        "revenue_cents": 1762200,
+        "cost_cents": 681490
+      },
+      "2026-09": {
+        "orders": 240,
+        "revenue_cents": 1828400,
+        "cost_cents": 708060
+      },
+      "2026-10": {
+        "orders": 12,
+        "revenue_cents": 76600,
+        "cost_cents": 29370
+      }
+    },
+    "exceptions": [
+      {
+        "order_id": "DUP-OCT",
+        "issues": "duplicate_order_id"
+      },
+      {
+        "order_id": "DUP-OCT",
+        "issues": "duplicate_order_id"
+      },
+      {
+        "order_id": "UNKNOWN-SKU",
+        "issues": "unmatched_sku"
+      },
+      {
+        "order_id": "BAD-QTY",
+        "issues": "invalid_quantity"
+      },
+      {
+        "order_id": "BAD-DATE",
+        "issues": "invalid_date"
+      },
+      {
+        "order_id": "BAD-CHANNEL",
+        "issues": "invalid_channel"
+      },
+      {
+        "order_id": "BAD-PRICE",
+        "issues": "invalid_unit_price_cents"
+      },
+      {
+        "order_id": "NAME-MISMATCH",
+        "issues": "product_mismatch"
+      },
+      {
+        "order_id": "",
+        "issues": "missing_order_id"
+      },
+      {
+        "order_id": "DECIMAL-QTY",
+        "issues": "invalid_quantity"
+      },
+      {
+        "order_id": "   ",
+        "issues": "missing_order_id"
+      }
+    ]
+  }
+}

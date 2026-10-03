@@ -1,0 +1,24 @@
+order_id,date,channel,sku,product,category,quantity,unit_price_cents,unit_cost_cents
+OCT0001,2026-10-01,Online,BG01,Canvas tote,Everyday,1,2800,1100
+OCT0002,2026-10-02,Retail,BG02,Zip pouch,Everyday,2,2000,730
+OCT0003,2026-10-03,Wholesale,BG03,Travel tumbler,Everyday,3,4200,1780
+OCT0004,2026-10-04,Online,BG04,Key loop,Everyday,4,1200,320
+OCT0005,2026-10-05,Retail,HM01,Stoneware mug,Home,1,3200,1350
+OCT0006,2026-10-06,Wholesale,HM02,Amber candle,Home,2,3800,1440
+OCT0007,2026-10-07,Online,HM03,Cotton tea towel,Home,3,1800,690
+OCT0008,2026-10-08,Retail,HM04,Oak desk tray,Home,4,4600,1920
+OCT0009,2026-10-09,Wholesale,ST01,Linen notebook,Stationery,1,2400,980
+OCT0010,2026-10-10,Online,ST02,Brass bookmark,Stationery,2,1600,520
+OCT0011,2026-10-11,Retail,ST03,Weekly desk pad,Stationery,3,2200,850
+OCT0012,2026-10-12,Wholesale,ST04,Graphite pencil set,Stationery,4,1400,410
+DUP-OCT,2026-10-01,Online,BG01,Canvas tote,Everyday,1,2800,1100
+DUP-OCT,2026-10-01,Online,BG01,Canvas tote,Everyday,1,2800,1100
+UNKNOWN-SKU,2026-10-01,Online,ZZ99,Canvas tote,Everyday,1,2800,1100
+BAD-QTY,2026-10-01,Online,BG01,Canvas tote,Everyday,two,2800,1100
+BAD-DATE,2026-02-30,Online,BG01,Canvas tote,Everyday,1,2800,1100
+BAD-CHANNEL,2026-10-01,Partner,BG01,Canvas tote,Everyday,1,2800,1100
+BAD-PRICE,2026-10-01,Online,BG01,Canvas tote,Everyday,1,-50,1100
+NAME-MISMATCH,2026-10-01,Online,BG01,Wrong product,Everyday,1,2800,1100
+,2026-10-01,Online,BG01,Canvas tote,Everyday,3,2800,1100
+DECIMAL-QTY,2026-10-01,Online,BG01,Canvas tote,Everyday,1.5,2800,1100
+   ,2026-10-01,Online,BG01,Canvas tote,Everyday,1,2800,1100

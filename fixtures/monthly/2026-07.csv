@@ -1,0 +1,205 @@
+order_id,date,channel,sku,product,category,quantity,unit_price_cents,unit_cost_cents
+ORD00511,2026-07-01,Wholesale,ST01,Linen notebook,Stationery,2,2400,980
+ORD00533,2026-07-01,Retail,HM01,Stoneware mug,Home,3,3200,1350
+ORD00548,2026-07-01,Retail,ST01,Linen notebook,Stationery,3,2400,980
+ORD00550,2026-07-01,Online,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00555,2026-07-01,Online,HM02,Amber candle,Home,3,3800,1440
+ORD00561,2026-07-01,Online,ST03,Weekly desk pad,Stationery,1,2200,850
+ORD00642,2026-07-01,Retail,BG04,Key loop,Everyday,5,1200,320
+ORD00525,2026-07-02,Online,HM02,Amber candle,Home,5,3800,1440
+ORD00531,2026-07-02,Online,BG03,Travel tumbler,Everyday,2,4200,1780
+ORD00572,2026-07-02,Retail,ST03,Weekly desk pad,Stationery,2,2200,850
+ORD00641,2026-07-02,Retail,BG04,Key loop,Everyday,5,1200,320
+ORD00680,2026-07-02,Online,BG03,Travel tumbler,Everyday,3,4200,1780
+ORD00541,2026-07-03,Online,HM01,Stoneware mug,Home,5,3200,1350
+ORD00558,2026-07-03,Retail,ST03,Weekly desk pad,Stationery,4,2200,850
+ORD00575,2026-07-03,Retail,BG04,Key loop,Everyday,3,1200,320
+ORD00594,2026-07-03,Retail,HM04,Oak desk tray,Home,3,4600,1920
+ORD00623,2026-07-03,Retail,ST03,Weekly desk pad,Stationery,4,2200,850
+ORD00629,2026-07-03,Retail,BG01,Canvas tote,Everyday,5,2800,1100
+ORD00657,2026-07-03,Online,BG03,Travel tumbler,Everyday,5,4200,1780
+ORD00512,2026-07-04,Retail,BG01,Canvas tote,Everyday,2,2800,1100
+ORD00544,2026-07-04,Wholesale,HM03,Cotton tea towel,Home,4,1800,690
+ORD00622,2026-07-04,Retail,BG04,Key loop,Everyday,4,1200,320
+ORD00660,2026-07-04,Online,HM04,Oak desk tray,Home,2,4600,1920
+ORD00529,2026-07-05,Retail,HM03,Cotton tea towel,Home,2,1800,690
+ORD00535,2026-07-05,Retail,BG04,Key loop,Everyday,3,1200,320
+ORD00610,2026-07-05,Retail,HM02,Amber candle,Home,1,3800,1440
+ORD00704,2026-07-05,Wholesale,BG04,Key loop,Everyday,2,1200,320
+ORD00506,2026-07-06,Retail,HM01,Stoneware mug,Home,5,3200,1350
+ORD00573,2026-07-06,Online,BG02,Zip pouch,Everyday,4,2000,730
+ORD00586,2026-07-06,Online,ST02,Brass bookmark,Stationery,1,1600,520
+ORD00588,2026-07-06,Online,BG04,Key loop,Everyday,1,1200,320
+ORD00627,2026-07-06,Retail,HM03,Cotton tea towel,Home,5,1800,690
+ORD00685,2026-07-06,Online,BG03,Travel tumbler,Everyday,5,4200,1780
+ORD00534,2026-07-07,Wholesale,BG03,Travel tumbler,Everyday,3,4200,1780
+ORD00553,2026-07-07,Online,HM04,Oak desk tray,Home,4,4600,1920
+ORD00554,2026-07-07,Retail,ST03,Weekly desk pad,Stationery,1,2200,850
+ORD00568,2026-07-07,Online,HM02,Amber candle,Home,5,3800,1440
+ORD00605,2026-07-07,Online,ST01,Linen notebook,Stationery,3,2400,980
+ORD00639,2026-07-07,Online,ST04,Graphite pencil set,Stationery,5,1400,410
+ORD00505,2026-07-08,Retail,ST02,Brass bookmark,Stationery,1,1600,520
+ORD00539,2026-07-08,Wholesale,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00567,2026-07-08,Online,BG02,Zip pouch,Everyday,4,2000,730
+ORD00581,2026-07-08,Online,BG02,Zip pouch,Everyday,4,2000,730
+ORD00587,2026-07-08,Online,ST02,Brass bookmark,Stationery,5,1600,520
+ORD00637,2026-07-08,Retail,BG02,Zip pouch,Everyday,3,2000,730
+ORD00638,2026-07-08,Online,BG04,Key loop,Everyday,3,1200,320
+ORD00644,2026-07-08,Online,BG04,Key loop,Everyday,3,1200,320
+ORD00514,2026-07-09,Retail,HM04,Oak desk tray,Home,5,4600,1920
+ORD00532,2026-07-09,Online,HM04,Oak desk tray,Home,5,4600,1920
+ORD00585,2026-07-09,Online,ST01,Linen notebook,Stationery,1,2400,980
+ORD00643,2026-07-09,Wholesale,BG02,Zip pouch,Everyday,4,2000,730
+ORD00647,2026-07-09,Online,ST03,Weekly desk pad,Stationery,4,2200,850
+ORD00689,2026-07-09,Retail,BG04,Key loop,Everyday,4,1200,320
+ORD00690,2026-07-09,Wholesale,ST03,Weekly desk pad,Stationery,3,2200,850
+ORD00508,2026-07-10,Online,ST02,Brass bookmark,Stationery,2,1600,520
+ORD00538,2026-07-10,Online,BG03,Travel tumbler,Everyday,3,4200,1780
+ORD00562,2026-07-10,Online,BG03,Travel tumbler,Everyday,1,4200,1780
+ORD00590,2026-07-10,Online,ST03,Weekly desk pad,Stationery,3,2200,850
+ORD00602,2026-07-10,Online,ST01,Linen notebook,Stationery,3,2400,980
+ORD00609,2026-07-10,Online,BG01,Canvas tote,Everyday,5,2800,1100
+ORD00626,2026-07-10,Online,HM04,Oak desk tray,Home,1,4600,1920
+ORD00635,2026-07-10,Retail,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00677,2026-07-10,Retail,BG04,Key loop,Everyday,1,1200,320
+ORD00695,2026-07-10,Retail,BG02,Zip pouch,Everyday,3,2000,730
+ORD00549,2026-07-11,Online,ST03,Weekly desk pad,Stationery,3,2200,850
+ORD00614,2026-07-11,Online,HM03,Cotton tea towel,Home,4,1800,690
+ORD00545,2026-07-12,Wholesale,ST02,Brass bookmark,Stationery,2,1600,520
+ORD00566,2026-07-12,Retail,ST03,Weekly desk pad,Stationery,2,2200,850
+ORD00569,2026-07-12,Online,BG03,Travel tumbler,Everyday,3,4200,1780
+ORD00574,2026-07-12,Wholesale,BG01,Canvas tote,Everyday,1,2800,1100
+ORD00601,2026-07-12,Retail,BG02,Zip pouch,Everyday,2,2000,730
+ORD00625,2026-07-12,Online,ST01,Linen notebook,Stationery,2,2400,980
+ORD00640,2026-07-12,Online,BG01,Canvas tote,Everyday,4,2800,1100
+ORD00670,2026-07-12,Retail,HM01,Stoneware mug,Home,2,3200,1350
+ORD00683,2026-07-12,Wholesale,BG03,Travel tumbler,Everyday,2,4200,1780
+ORD00526,2026-07-13,Online,BG04,Key loop,Everyday,2,1200,320
+ORD00669,2026-07-13,Online,ST01,Linen notebook,Stationery,2,2400,980
+ORD00682,2026-07-13,Retail,HM04,Oak desk tray,Home,4,4600,1920
+ORD00528,2026-07-14,Retail,BG01,Canvas tote,Everyday,1,2800,1100
+ORD00540,2026-07-14,Online,HM03,Cotton tea towel,Home,3,1800,690
+ORD00547,2026-07-14,Wholesale,HM03,Cotton tea towel,Home,5,1800,690
+ORD00563,2026-07-14,Online,HM02,Amber candle,Home,5,3800,1440
+ORD00582,2026-07-14,Retail,BG02,Zip pouch,Everyday,3,2000,730
+ORD00648,2026-07-14,Wholesale,HM04,Oak desk tray,Home,4,4600,1920
+ORD00651,2026-07-14,Retail,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00694,2026-07-14,Online,ST02,Brass bookmark,Stationery,4,1600,520
+ORD00698,2026-07-14,Online,ST02,Brass bookmark,Stationery,3,1600,520
+ORD00706,2026-07-14,Retail,BG04,Key loop,Everyday,5,1200,320
+ORD00513,2026-07-15,Retail,HM03,Cotton tea towel,Home,3,1800,690
+ORD00570,2026-07-15,Online,ST01,Linen notebook,Stationery,3,2400,980
+ORD00653,2026-07-15,Online,BG04,Key loop,Everyday,2,1200,320
+ORD00659,2026-07-15,Online,HM02,Amber candle,Home,5,3800,1440
+ORD00507,2026-07-16,Online,BG01,Canvas tote,Everyday,4,2800,1100
+ORD00551,2026-07-16,Retail,HM02,Amber candle,Home,1,3800,1440
+ORD00606,2026-07-16,Retail,BG02,Zip pouch,Everyday,5,2000,730
+ORD00619,2026-07-16,Retail,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00628,2026-07-16,Retail,HM03,Cotton tea towel,Home,2,1800,690
+ORD00631,2026-07-16,Online,HM03,Cotton tea towel,Home,3,1800,690
+ORD00636,2026-07-16,Retail,HM02,Amber candle,Home,4,3800,1440
+ORD00691,2026-07-16,Online,HM02,Amber candle,Home,1,3800,1440
+ORD00702,2026-07-16,Online,BG03,Travel tumbler,Everyday,5,4200,1780
+ORD00518,2026-07-17,Retail,HM04,Oak desk tray,Home,2,4600,1920
+ORD00542,2026-07-17,Online,HM04,Oak desk tray,Home,5,4600,1920
+ORD00571,2026-07-17,Retail,HM03,Cotton tea towel,Home,4,1800,690
+ORD00604,2026-07-17,Online,HM01,Stoneware mug,Home,4,3200,1350
+ORD00611,2026-07-17,Online,HM04,Oak desk tray,Home,4,4600,1920
+ORD00612,2026-07-17,Online,HM02,Amber candle,Home,5,3800,1440
+ORD00649,2026-07-17,Online,HM01,Stoneware mug,Home,4,3200,1350
+ORD00678,2026-07-17,Online,HM04,Oak desk tray,Home,4,4600,1920
+ORD00686,2026-07-17,Wholesale,BG02,Zip pouch,Everyday,5,2000,730
+ORD00697,2026-07-17,Online,HM04,Oak desk tray,Home,5,4600,1920
+ORD00516,2026-07-18,Retail,HM04,Oak desk tray,Home,2,4600,1920
+ORD00530,2026-07-18,Online,HM01,Stoneware mug,Home,2,3200,1350
+ORD00560,2026-07-18,Online,BG04,Key loop,Everyday,4,1200,320
+ORD00591,2026-07-18,Retail,HM03,Cotton tea towel,Home,1,1800,690
+ORD00598,2026-07-18,Online,HM02,Amber candle,Home,1,3800,1440
+ORD00663,2026-07-18,Retail,ST04,Graphite pencil set,Stationery,5,1400,410
+ORD00565,2026-07-19,Retail,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00577,2026-07-19,Online,HM03,Cotton tea towel,Home,5,1800,690
+ORD00607,2026-07-19,Retail,BG04,Key loop,Everyday,3,1200,320
+ORD00662,2026-07-19,Retail,HM03,Cotton tea towel,Home,5,1800,690
+ORD00667,2026-07-19,Retail,BG04,Key loop,Everyday,5,1200,320
+ORD00703,2026-07-19,Online,HM04,Oak desk tray,Home,3,4600,1920
+ORD00707,2026-07-19,Online,BG01,Canvas tote,Everyday,5,2800,1100
+ORD00596,2026-07-20,Online,BG04,Key loop,Everyday,4,1200,320
+ORD00608,2026-07-20,Online,BG04,Key loop,Everyday,5,1200,320
+ORD00615,2026-07-20,Retail,BG01,Canvas tote,Everyday,1,2800,1100
+ORD00616,2026-07-20,Retail,ST02,Brass bookmark,Stationery,1,1600,520
+ORD00621,2026-07-20,Retail,BG02,Zip pouch,Everyday,1,2000,730
+ORD00624,2026-07-20,Retail,HM03,Cotton tea towel,Home,3,1800,690
+ORD00664,2026-07-20,Online,BG03,Travel tumbler,Everyday,2,4200,1780
+ORD00675,2026-07-20,Online,HM02,Amber candle,Home,4,3800,1440
+ORD00676,2026-07-20,Retail,BG02,Zip pouch,Everyday,3,2000,730
+ORD00509,2026-07-21,Retail,BG03,Travel tumbler,Everyday,4,4200,1780
+ORD00592,2026-07-21,Retail,ST03,Weekly desk pad,Stationery,2,2200,850
+ORD00595,2026-07-21,Online,ST01,Linen notebook,Stationery,2,2400,980
+ORD00632,2026-07-21,Retail,BG03,Travel tumbler,Everyday,2,4200,1780
+ORD00645,2026-07-21,Online,BG03,Travel tumbler,Everyday,2,4200,1780
+ORD00655,2026-07-21,Online,ST01,Linen notebook,Stationery,3,2400,980
+ORD00668,2026-07-21,Retail,ST03,Weekly desk pad,Stationery,3,2200,850
+ORD00674,2026-07-21,Online,HM03,Cotton tea towel,Home,1,1800,690
+ORD00537,2026-07-22,Wholesale,HM01,Stoneware mug,Home,3,3200,1350
+ORD00557,2026-07-22,Online,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00634,2026-07-22,Online,HM01,Stoneware mug,Home,5,3200,1350
+ORD00671,2026-07-22,Online,HM01,Stoneware mug,Home,1,3200,1350
+ORD00705,2026-07-22,Retail,HM01,Stoneware mug,Home,4,3200,1350
+ORD00515,2026-07-23,Online,BG04,Key loop,Everyday,5,1200,320
+ORD00620,2026-07-23,Retail,HM03,Cotton tea towel,Home,4,1800,690
+ORD00700,2026-07-23,Online,BG04,Key loop,Everyday,5,1200,320
+ORD00510,2026-07-24,Online,BG03,Travel tumbler,Everyday,3,4200,1780
+ORD00527,2026-07-24,Retail,BG02,Zip pouch,Everyday,1,2000,730
+ORD00630,2026-07-24,Online,BG03,Travel tumbler,Everyday,5,4200,1780
+ORD00666,2026-07-24,Online,ST04,Graphite pencil set,Stationery,1,1400,410
+ORD00522,2026-07-25,Online,BG01,Canvas tote,Everyday,5,2800,1100
+ORD00559,2026-07-25,Retail,ST03,Weekly desk pad,Stationery,1,2200,850
+ORD00597,2026-07-25,Retail,BG01,Canvas tote,Everyday,3,2800,1100
+ORD00617,2026-07-25,Online,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00665,2026-07-25,Online,BG01,Canvas tote,Everyday,3,2800,1100
+ORD00693,2026-07-25,Retail,HM02,Amber candle,Home,4,3800,1440
+ORD00696,2026-07-25,Retail,BG03,Travel tumbler,Everyday,4,4200,1780
+ORD00613,2026-07-26,Online,HM03,Cotton tea towel,Home,5,1800,690
+ORD00672,2026-07-26,Retail,ST01,Linen notebook,Stationery,2,2400,980
+ORD00687,2026-07-26,Online,BG01,Canvas tote,Everyday,3,2800,1100
+ORD00692,2026-07-26,Online,HM02,Amber candle,Home,2,3800,1440
+ORD00524,2026-07-27,Online,HM04,Oak desk tray,Home,5,4600,1920
+ORD00546,2026-07-27,Retail,BG03,Travel tumbler,Everyday,1,4200,1780
+ORD00564,2026-07-27,Retail,HM03,Cotton tea towel,Home,5,1800,690
+ORD00576,2026-07-27,Retail,BG04,Key loop,Everyday,5,1200,320
+ORD00578,2026-07-27,Retail,ST02,Brass bookmark,Stationery,3,1600,520
+ORD00584,2026-07-27,Retail,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00600,2026-07-27,Online,HM01,Stoneware mug,Home,3,3200,1350
+ORD00633,2026-07-27,Online,ST01,Linen notebook,Stationery,2,2400,980
+ORD00673,2026-07-27,Wholesale,HM03,Cotton tea towel,Home,5,1800,690
+ORD00701,2026-07-27,Online,ST03,Weekly desk pad,Stationery,5,2200,850
+ORD00517,2026-07-28,Online,ST03,Weekly desk pad,Stationery,5,2200,850
+ORD00519,2026-07-28,Wholesale,BG04,Key loop,Everyday,1,1200,320
+ORD00543,2026-07-28,Retail,ST04,Graphite pencil set,Stationery,2,1400,410
+ORD00579,2026-07-28,Online,BG01,Canvas tote,Everyday,5,2800,1100
+ORD00580,2026-07-28,Retail,HM04,Oak desk tray,Home,1,4600,1920
+ORD00618,2026-07-28,Online,BG02,Zip pouch,Everyday,3,2000,730
+ORD00646,2026-07-28,Retail,BG04,Key loop,Everyday,3,1200,320
+ORD00656,2026-07-28,Retail,ST01,Linen notebook,Stationery,2,2400,980
+ORD00658,2026-07-28,Retail,ST01,Linen notebook,Stationery,5,2400,980
+ORD00688,2026-07-28,Retail,ST03,Weekly desk pad,Stationery,1,2200,850
+ORD00523,2026-07-29,Retail,HM02,Amber candle,Home,4,3800,1440
+ORD00556,2026-07-29,Online,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00599,2026-07-29,Retail,HM03,Cotton tea towel,Home,3,1800,690
+ORD00603,2026-07-29,Online,HM02,Amber candle,Home,1,3800,1440
+ORD00661,2026-07-29,Online,ST01,Linen notebook,Stationery,1,2400,980
+ORD00679,2026-07-29,Online,ST01,Linen notebook,Stationery,5,2400,980
+ORD00520,2026-07-30,Online,ST04,Graphite pencil set,Stationery,4,1400,410
+ORD00521,2026-07-30,Retail,ST01,Linen notebook,Stationery,2,2400,980
+ORD00552,2026-07-30,Online,HM03,Cotton tea towel,Home,2,1800,690
+ORD00583,2026-07-30,Online,ST03,Weekly desk pad,Stationery,3,2200,850
+ORD00654,2026-07-30,Online,BG02,Zip pouch,Everyday,3,2000,730
+ORD00681,2026-07-30,Online,HM01,Stoneware mug,Home,4,3200,1350
+ORD00699,2026-07-30,Online,HM01,Stoneware mug,Home,4,3200,1350
+ORD00536,2026-07-31,Wholesale,HM01,Stoneware mug,Home,3,3200,1350
+ORD00589,2026-07-31,Retail,ST04,Graphite pencil set,Stationery,3,1400,410
+ORD00593,2026-07-31,Online,ST02,Brass bookmark,Stationery,2,1600,520
+ORD00650,2026-07-31,Retail,BG01,Canvas tote,Everyday,1,2800,1100
+ORD00652,2026-07-31,Online,BG01,Canvas tote,Everyday,2,2800,1100
+ORD00684,2026-07-31,Online,BG02,Zip pouch,Everyday,3,2000,730
+ORD00708,2026-07-31,Retail,HM04,Oak desk tray,Home,4,4600,1920
